@@ -1,0 +1,118 @@
+body{
+   background-color: lightgreen;
+   color:black;
+   font-family: Ani;
+   font-size: 16px;
+   line-height: 1.6em;
+   margin:0; 
+   font-weight: bold;
+
+}
+
+.container{
+ 	width:80%;
+ 	margin: auto;
+ 	overflow: hidden;  
+}
+
+#mainheader{
+  	background-color: tomato;
+  	color:white;
+	font-family: Get Schwifty;
+	text-shadow: 3px 3px darkgreen;	
+}
+
+  
+#navbar{
+	background-color: black;
+	color: white;
+    
+}
+
+#navbar ul{
+  	padding: 0;
+  	list-style:none;
+}
+
+#navbar li{
+     display: inline; 
+ 
+} 
+
+#navbar a{
+	color:darkgreen; 
+   text-decoration:none; 
+   font-size: 20px;
+   padding-right:15px; 
+}
+
+#showcase{
+	background-image:url(/home/dell/Desktop/wallpapers/schwifty-rick-sanchez-rick-and-morty-uhdpaper.com-4K-5.116.jpg);
+	background-position: center;
+   	min-height:300px; 
+   	margin-bottom: 30px;
+	text-align: center;		   
+}
+
+#showcase h1{
+	color: darkgreen;
+   font-size: 50;
+   line-height: 1.6m;
+   background-color: black;	
+   font-family: Get Schwifty;
+   padding: 20px;
+   outline:5px groove darkgreen;
+}
+
+#main {
+	float: left;
+	width:70%;
+	padding: 0 30px;
+	box-sizing:border-box;  
+	font-family: Tlwg Typewriter;
+	text-transform: uppercase;
+}
+
+#sidebar {
+	float: right;
+	width:30%;
+	background: black;
+	color: white;
+	padding: 0 30px;
+	box-sizing:border-box;
+	border: 3px solid orangered;
+
+}
+
+#mainfooter{
+	background:black;
+	color: red;
+	text-align:center;
+	padding: 20px;
+	margin-top: 40px;  
+}
+
+@media (max-width: 600px) {
+	#main{
+    	width: 100%;
+    	float: none;
+	}
+	#sidebar{
+    	width: 100%;
+    	float: none;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
